@@ -6,7 +6,7 @@ var can_generate = true
 
 var player_spawn = false
 
-var free_timer = 0
+var free_timer = 0.0
 var tile_neib = [Vector2(0,0), Vector2(0,0), Vector2(0,0), Vector2(0,0)]
 
 func _process(delta):

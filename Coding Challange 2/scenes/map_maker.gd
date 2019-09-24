@@ -4,7 +4,7 @@ var velocity = Vector2(0,0)
 var speed = 250
 var step: int
 
-var step_timer = 0
+var step_timer = 0.0
 
 func _process(delta):
 	velocity = Vector2(0,0)
@@ -14,7 +14,7 @@ func _process(delta):
 		randomize()
 		step = rand_range(0,5)
 		generate()
-		step_timer = 0
+		step_timer = 0.0
 	
 	self.position += velocity * speed #* delta
 
